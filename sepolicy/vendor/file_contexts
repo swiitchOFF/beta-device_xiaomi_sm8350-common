@@ -11,6 +11,9 @@
 # Camera
 /mnt/vendor/persist/camera(/.*)?   u:object_r:camera_persist_file:s0
 
+# Fastcharge
+/vendor/bin/hw/vendor\.lineage\.fastcharge@1\.0-service\.vili                u:object_r:hal_lineage_fastcharge_default_exec:s0
+
 # IR
 /dev/ir_spi                                      u:object_r:ir_spi_device:s0
 
